@@ -1,0 +1,46 @@
+attributes: 6829 (pruned to 3000)
+
+training tuples: 2822
+testing attributes: 2752
+
+J48 (Decision Tree)
+	Raw Frequency Construction
+		All Features
+		1000 Features
+		500 Features
+		100 Features
+		50 Features
+	TF-IDF Construction
+		All Features
+		1000 Features
+		500 Features
+		100 Features
+		50 Features
+
+NB (Naive Bayes)
+	Raw Frequency Construction
+		All Features
+		1000 Features
+		500 Features
+		100 Features
+		50 Features
+	TF-IDF Construction
+		All Features
+		1000 Features
+		500 Features
+		100 Features
+		50 Features
+	
+SMO (Sequential Minimal Optimization method for SVM)
+	Raw Frequency Construction
+		All Features
+		1000 Features
+		500 Features
+		100 Features
+		50 Features
+	TF-IDF Construction
+		All Features
+		1000 Features
+		500 Features
+		100 Features
+		50 Features

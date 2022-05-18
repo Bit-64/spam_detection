@@ -1,0 +1,31 @@
+Naive Bayes Results
+
+Correctly Classified Instances        2622               95.2762 %
+Incorrectly Classified Instances       130                4.7238 %
+Kappa statistic                          0.7913
+K&B Relative Info Score             195740.793  %
+K&B Information Score                 1126.4732 bits      0.4093 bits/instance
+Class complexity | order 0            1546.1067 bits      0.5618 bits/instance
+Class complexity | scheme             3992.4456 bits      1.4507 bits/instance
+Complexity improvement     (Sf)      -2446.339  bits     -0.8889 bits/instance
+Mean absolute error                      0.0509
+Root mean squared error                  0.2036
+Relative absolute error                 21.9088 %
+Root relative squared error             60.2237 %
+Coverage of cases (0.95 level)          96.9477 %
+Mean rel. region size (0.95 level)      52.8525 %
+Total Number of Instances             2752     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.974    0.191    0.971      0.974    0.973      0.791    0.957     0.988     Ham
+                 0.809    0.026    0.828      0.809    0.818      0.791    0.957     0.825     Spam
+Weighted Avg.    0.953    0.169    0.952      0.953    0.953      0.791    0.957     0.966     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2329   61 |    a = Ham
+   69  293 |    b = Spam
+

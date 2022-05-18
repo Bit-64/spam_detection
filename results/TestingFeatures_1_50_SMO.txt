@@ -1,0 +1,31 @@
+SMO Results
+
+Correctly Classified Instances        2614               94.9855 %
+Incorrectly Classified Instances       138                5.0145 %
+Kappa statistic                          0.748 
+K&B Relative Info Score             194726.7678 %
+K&B Information Score                 1120.6376 bits      0.4072 bits/instance
+Class complexity | order 0            1546.1067 bits      0.5618 bits/instance
+Class complexity | scheme           148212      bits     53.8561 bits/instance
+Complexity improvement     (Sf)    -146665.8933 bits    -53.2943 bits/instance
+Mean absolute error                      0.0501
+Root mean squared error                  0.2239
+Relative absolute error                 21.5895 %
+Root relative squared error             66.2461 %
+Coverage of cases (0.95 level)          94.9855 %
+Mean rel. region size (0.95 level)      50      %
+Total Number of Instances             2752     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.994    0.343    0.950      0.994    0.972      0.764    0.826     0.950     Ham
+                 0.657    0.006    0.944      0.657    0.775      0.764    0.826     0.666     Spam
+Weighted Avg.    0.950    0.298    0.950      0.950    0.946      0.764    0.826     0.913     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2376   14 |    a = Ham
+  124  238 |    b = Spam
+

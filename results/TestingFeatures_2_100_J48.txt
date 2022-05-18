@@ -1,0 +1,31 @@
+J48 Results
+
+Correctly Classified Instances        2598               94.4041 %
+Incorrectly Classified Instances       154                5.5959 %
+Kappa statistic                          0.7196
+K&B Relative Info Score             163352.9159 %
+K&B Information Score                  940.0835 bits      0.3416 bits/instance
+Class complexity | order 0            1546.1067 bits      0.5618 bits/instance
+Class complexity | scheme            20031.6478 bits      7.2789 bits/instance
+Complexity improvement     (Sf)     -18485.5411 bits     -6.7171 bits/instance
+Mean absolute error                      0.0863
+Root mean squared error                  0.2251
+Relative absolute error                 37.147  %
+Root relative squared error             66.5971 %
+Coverage of cases (0.95 level)          96.7297 %
+Mean rel. region size (0.95 level)      55.7594 %
+Total Number of Instances             2752     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.990    0.362    0.948      0.990    0.968      0.734    0.853     0.957     Ham
+                 0.638    0.010    0.909      0.638    0.750      0.734    0.853     0.726     Spam
+Weighted Avg.    0.944    0.316    0.943      0.944    0.940      0.734    0.853     0.926     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2367   23 |    a = Ham
+  131  231 |    b = Spam
+
